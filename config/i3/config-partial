@@ -1,0 +1,36 @@
+# i3wm purplish theme partial config
+
+# set wallpaper with fed
+exec --no-startup-id "sh -c 'sleep 5; feh --no-fehbg --bg-fill $HOME/Pictures/bg.png --bg-fill $HOME/Pictures/bg.png'"
+
+# run rofi programs
+bindsym $mod+a exec "rofi -show window -no-default-config -config ~/.config/rofi/main.rasi"
+bindsym $mod+space exec "rofi -show drun -no-default-config -config ~/.config/rofi/main.rasi"
+bindsym $mod+s exec "rofi -show drun -no-default-config -config ~/.config/rofi/full_screen.rasi"
+bindsym $mod+x exec "rofi-powermenu"
+bindsym $mod+Shift+s exec "rofi-screenshot"
+
+
+### BORDERS ###
+
+#border width
+default_border pixel 3
+
+#border colors
+#Class                  border    bg        text      indicator child_border
+client.focused          #755794   #755794   #F8F8F2   #755794   #755794
+client.focused_inactive #563d70   #563d70   #F8F8F2   #563d70   #563d70
+client.unfocused        #563d70   #563d70   #F8F8F2   #563d70   #563d70
+
+### SETTINGS FOR i3 BAR ###
+
+bar {
+    mode invisible
+    tray_output none
+}
+
+### SETTINGS FOR i3-gaps ###
+
+# Set inner/outer gaps
+gaps inner 5
+gaps outer 0
