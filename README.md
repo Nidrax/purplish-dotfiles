@@ -6,7 +6,7 @@ Shout-out to [zawadahmed33](https://github.com/zawadahmed33) for his [Brown-ish 
 
 ## Information
 
-<img src="https://github.com/Nidrax/purplish-dotfiles/blob/master/screenshots/1.png?raw=true" alt="Rice Showcase" align="right" width="400px">
+<img src="https://github.com/Nidrax/purplish-dotfiles/blob/trunk/wallpaper/bg.png?raw=true" alt="Rice Showcase" align="right" width="400px">
 
 - **OS:** [EndeavourOS](https://endeavouros.com/)
 - **WM:** [i3](https://i3wm.org/)
